@@ -1,5 +1,5 @@
 import numpy as np
-from ..kernel.kernels import RBF
+from ..kernels import RBF
 
 def sigmoid(z):
     # [n_examples, 1] -> [n_exmaples, 1]
